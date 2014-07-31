@@ -246,3 +246,8 @@ set scrolloff=8
 
 " ZoomWin
 nmap <leader>o <c-w>o
+
+" no relativenumber
+let g:enable_numbers = 0
+nnoremap <F3> :NumbersToggle<CR>
+nnoremap <F4> :NumbersOnOff<CR>

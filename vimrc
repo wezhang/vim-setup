@@ -267,7 +267,7 @@ nnoremap <F4> :NumbersOnOff<CR>
 set runtimepath^=~/.vim/bundle/vim-node
 
 " tern.vim
-let g:is_show_argument_hints_enabled = 1
+" let g:is_show_argument_hints_enabled = 1
 
 " Tagbar
 nmap <F8> :TagbarToggle<CR>
@@ -311,18 +311,3 @@ nmap <F8> :TagbarToggle<CR>
 "   \ --regex-coffee=/((constructor|initialize):[ \t]*\()@(([A-Za-z][A-Za-z0-9_.]*)+)([ \t]*=[ \t]*[^,)]+)?(,[ \t]*@(([A-Za-z][A-Za-z0-9_.]*)+)([ \t]*=[ \t]*[^,)]+)?){9}/\8/f,field/'
 
 " let $CTAGS = substitute(s:ctags_opts, '\v\\([nst]\)', '\\\\\1', 'g')
-
-" vim-easytags
-"
-"let g:easytags_cmd = '/usr/bin/ctags'
-let g:easytags_languages = {
-\   'javascript': {
-\     'cmd': '/usr/bin/jsctags',
-\       'args': [],
-\       'fileoutput_opt': '-f',
-\       'stdout_opt': '-f-',
-\       'recurse_flag': ''
-\   }
-\}
-set tags=./tags;
-let g:easytags_dynamic_files = 1

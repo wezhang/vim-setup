@@ -47,7 +47,9 @@ autocmd BufWinLeave * call clearmatches()
 syntax on
 set background=dark
 let g:solarized_termcolors = 256
-colorscheme desert
+" colorscheme desert
+colorscheme molokai
+let g:rehash256 = 1
 
 " leader key
 let mapleader = ','

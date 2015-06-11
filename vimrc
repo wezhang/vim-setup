@@ -7,7 +7,7 @@ syntax on
 
 set encoding=utf-8
 let g:Powerline_symbols = 'fancy'
-set guifont=Inconsolata\ For\ Powerline
+set guifont=Monaco:h12
 set rtp+=/usr/local/lib/python2.7/dist-packages/Powerline-beta-py2.7.egg/powerline/bindings/vim/
 set laststatus=2
 
@@ -267,7 +267,7 @@ nnoremap <F4> :NumbersOnOff<CR>
 set runtimepath^=~/.vim/bundle/vim-node
 
 " tern.vim
-" let g:is_show_argument_hints_enabled = 1
+let g:is_show_argument_hints_enabled = 1
 
 " Tagbar
 nmap <F8> :TagbarToggle<CR>
